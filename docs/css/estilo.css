@@ -1,0 +1,48 @@
+body{
+    background-color:gray
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row
+}
+
+
+.menu{
+    background-color: rgb(0, 204, 255);
+    padding: 2rem;
+    margin-right: 1rem;
+}
+
+.conteudo{
+    padding: 2rem;
+}
+
+.item-menu{
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+
+.item-menu:hover{
+    background-color:cornflowerblue
+}
+
+section{
+    margin-top: 5rem;
+}
+
+#sec1{
+    background-color:gainsboro
+}
+
+
+#sec2{
+    background-color:gainsboro
+}
+
+
+#sec3{
+    background-color:gainsboro
+}
