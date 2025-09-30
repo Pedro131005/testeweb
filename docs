@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Pedro Bernardo Cassoto</title>
+    
+    <!-- Ícones Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Link do CSS externo -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#info">Informações</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#redes">Redes Sociais</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <h1>Pedro Bernardo Cassoto</h1>
+    </header>
+
+    <!-- Informações pessoais -->
+    <section class="section" id="info">
+        <h3>Informações Pessoais</h3>
+        <p><i class="fa-solid fa-location-dot"></i> Rua Guadalajara 107 - Santa Rosa, Londrina</p>
+        <p><i class="fa-solid fa-phone"></i> (43) 99110-8273</p>
+        <p><i class="fa-solid fa-envelope"></i> pedrocassoto05@gmail.com</p>
+    </section>
+
+    <!-- Objetivo -->
+    <section class="section" id="objetivos">
+        <h3>Objetivos</h3>
+        <p>Busco me desenvolver profissionalmente em um ambiente que proporcione aprendizado e crescimento, contribuindo de forma eficaz para os objetivos da empresa.</p>
+    </section>
+
+    <!-- Experiência profissional -->
+    <section class="section" id="experiencia">
+        <h3>Experiência Profissional</h3>
+        <div class="job">
+            <h4>Assistente Administrativo - Empresa Imobase</h4>
+            <span>2023 - 2025</span>
+            <ul>
+                <li>Atendimento online e suporte aos clientes.</li>
+                <li>Elaboração de relatórios, planilhas e controles administrativos.</li>
+                <li>Inserção de dados em imóveis no CRM.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h4>Assistente Financeiro - Empresa Trismar</h4>
+            <span>2025 - Atualmente</span>
+            <ul>
+                <li>Controle de contas a pagar e receber, com emissão de boletos e notas fiscais.</li>
+                <li>Acompanhamento de cobranças e conferência de pagamentos.</li>
+                <li>Elaboração de relatórios e planilhas de controle financeiro.</li>
+                <li>Auxílio em orçamentos, previsão de custos e análise de despesas.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Formação -->
+    <section class="section" id="formacao">
+        <h3>Formação Acadêmica</h3>
+        <ul>
+            <li>Universidade Positivo – Engenharia de Software (em andamento)</li>
+            <li>Colégio Londrinense – Ensino Médio Completo (2023)</li>
+        </ul>
+    </section>
+
+    <!-- Contato / Redes sociais -->
+    <footer id="redes">
+        <h3>Redes Sociais</h3>
+        <a href="https://www.linkedin.com/in/pedro-bernardo-cassoto-222432378/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Pedro131005/testeweb" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://instagram.com/eaipedrinn/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </footer>
+
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f9;
+}
+
+/* Menu de navegação */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #2c3e50;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #00aaff;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    padding: 40px;
+    background: #005f99;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+/* Seções */
+.section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+}
+
+.section h3 {
+    color: #005f99;
+    margin-bottom: 15px;
+}
+
+/* Experiência */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h4 {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+.job span {
+    font-size: 0.9em;
+    color: gray;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #005f99;
+}
