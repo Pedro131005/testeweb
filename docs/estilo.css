@@ -1,106 +1,112 @@
-/* Reset */
+/* Remove todas as margens e espaçamentos padrão dos elementos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Aplica uma fonte padrão, define altura de linha, cor do texto e cor de fundo */
 body {
-    font-family: "Arial", sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background: #f4f4f9;
+    font-family: "Arial", sans-serif; 
+    line-height: 1.6; 
+    color: #333; 
+    background: #f4f4f9; 
 }
 
-/* Menu de navegação */
+/* Estiliza a barra de navegação superior */
 .navbar {
-    position: sticky;
-    top: 0;
-    background: #2c3e50;
-    padding: 10px 0;
-    z-index: 1000;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    position: sticky; 
+    top: 0; 
+    background: #2c3e50; 
+    padding: 10px 0; 
+    z-index: 1000; 
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1); 
 }
 
+/* Remove os estilos padrão da lista e centraliza os itens horizontalmente */
 .navbar ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
 }
 
+/* Adiciona espaçamento lateral entre os itens do menu */
 .navbar li {
-    margin: 0 15px;
+    margin: 0 15px; 
 }
 
+/* Estilo dos links dentro da navbar */
 .navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s; 
 }
 
+/* Altera a cor do link quando o mouse passa por cima */
 .navbar a:hover {
-    color: #00aaff;
+    color: #00aaff; 
 }
 
-/* Cabeçalho */
+/* Estilo do cabeçalho principal (geralmente com nome ou título da página) */
 .header {
-    text-align: center;
-    padding: 40px;
-    background: #005f99;
-    color: white;
+    text-align: center; 
+    padding: 40px; 
+    background: #005f99; 
+    color: white; 
 }
 
+/* Título principal dentro do cabeçalho */
 .header h1 {
-    font-size: 2.5em;
+    font-size: 2.5em; 
 }
 
-/* Seções */
+/* Estilo das seções da página */
 .section {
-    padding: 30px;
-    margin: 20px auto;
-    max-width: 900px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    padding: 30px; 
+    margin: 20px auto; 
+    max-width: 900px; 
+    background: white; 
+    border-radius: 10px; 
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.1); 
 }
 
+/* Títulos das seções */
 .section h3 {
-    color: #005f99;
-    margin-bottom: 15px;
+    color: #005f99; 
+    margin-bottom: 15px; 
 }
 
-/* Experiência */
-.job {
-    margin-bottom: 20px;
+/* Estilo para blocos de experiência profissional */
+.trabalho {
+    margin-bottom: 20px; /
 }
 
-.job h4 {
-    font-size: 1.2em;
-    color: #2c3e50;
+/* Títulos dos empregos */
+.trabalho h4 {
+    font-size: 1.2em; 
+    color: #2c3e50; 
 }
 
-.job span {
-    font-size: 0.9em;
-    color: gray;
-}
-
-/* Rodapé */
+/* Rodapé da página (footer) */
+/* Centraliza conteúdo e define fundo escuro */
 footer {
-    text-align: center;
-    padding: 20px;
-    background: #2c3e50;
-    color: white;
-    margin-top: 30px;
+    text-align: center; 
+    padding: 20px; 
+    background: #2c3e50; 
+    color: white; 
+    margin-top: 30px; 
 }
 
+/* Estilo dos ícones (ou links) sociais no rodapé */
 footer a {
-    color: white;
-    font-size: 1.5em;
-    margin: 0 10px;
-    transition: 0.3s;
+    color: white; 
+    font-size: 1.5em; 
+    margin: 0 10px; 
+    transition: 0.3s; 
 }
 
+/* Efeito ao passar o mouse sobre os links sociais */
 footer a:hover {
-    color: #005f99;
+    color: #005f99; 
 }
